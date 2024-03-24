@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always|collapseActionView"
+        app:iconifiedByDefault="false"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="search"/>
+    <item
+        android:id="@+id/action_today"
+        android:title="Today"
+        android:icon="@drawable/ic_baseline_calendar_today_24"
+        app:showAsAction="always" />
+</menu>
